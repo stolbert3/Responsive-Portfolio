@@ -1,0 +1,45 @@
+@media screen and (max-width: 640px) {
+    header{
+        position: static;
+    }
+    #logo {
+        width: 100%;
+    }
+
+    nav {
+        width: 100%;
+        text-align: center;
+    }
+
+    .auth-image {
+        width: 100%;
+        align: center;
+    }
+
+    #main-container {
+        padding-top: 180px;
+    }
+
+    .work {
+        width: 100%;
+        align: center;
+    }
+
+    #contact-form {
+        width: 100%;
+        align: center;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .auth-image {
+        width: 50%;
+    }
+    .masthead {
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 980px) {}
